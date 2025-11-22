@@ -1,12 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Criando iframe</title>
+    <style>
+        iframe {
+            width: 400px;
+            height: 200px;
+            border: 3px dashed black;
+        }
+    </style>
 </head>
+
 <body>
     <h1>Testando iframe</h1>
-    <p>acesse o site do <iframe src="https://www.cursoemvideo.com/" frameborder="0"></iframe> e aprenda infomática </p>    
+    <p>acesse o site do
+
+        <!--Tamanho padrão 300x150-->
+        <iframe src="https://www.cursoemvideo.com/" frameborder="0" scolling="no">
+            <a href="https://www.cursoemvideo.com/" target="_blank">Curso em video</a>
+
+        </iframe>
+        e aprenda infomática
+    </p>
+    <p>
+        Acesse o meu perfil do GitHub
+        <iframe src="https://github.com/KauanWeeknd" frameborder="0" scolling="no">
+            <a href="https://github.com/KauanWeeknd" target="_blank"> KauanWeeknd</a>
+        </iframe>
+        e tenha acesso aos arquivos.
+    </p>
+
 </body>
+
 </html>
